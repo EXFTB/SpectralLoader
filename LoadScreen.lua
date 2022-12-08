@@ -36,7 +36,7 @@ repeat
         TopFrame.Name = "TopFrame"
         TopFrame.Parent = BackFrame
         TopFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        TopFrame.Size = UDim2.new(0, 361, 0, 29)
+        TopFrame.Size = UDim2.new(0, 370, 0, 25)
         
         UICorner_2.CornerRadius = UDim.new(0, 12)
         UICorner_2.Parent = TopFrame
