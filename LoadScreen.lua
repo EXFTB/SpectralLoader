@@ -41,7 +41,7 @@ repeat
         UICorner_2.CornerRadius = UDim.new(0, 12)
         UICorner_2.Parent = TopFrame
         
-        UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 121)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 182))}
+        UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 255))}
         UIGradient.Rotation = 90
         UIGradient.Parent = TopFrame
         
@@ -57,7 +57,7 @@ repeat
         TextLabel.TextSize = 14.000
         TextLabel.TextWrapped = true
         
-        UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+        UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(25, 25, 25)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))}
         UIGradient_2.Offset = Vector2.new(0.5, 0)
         UIGradient_2.Rotation = 90
         UIGradient_2.Parent = BackFrame
@@ -97,7 +97,7 @@ repeat
         UICorner_4.CornerRadius = UDim.new(0, 12)
         UICorner_4.Parent = Loading
         
-        UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 0, 220)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 115))}
+        UIGradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(0, 255, 238)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 255, 255))}
         UIGradient_4.Rotation = 90
         UIGradient_4.Parent = Loading
         
