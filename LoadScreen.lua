@@ -27,8 +27,8 @@ repeat
         BackFrame.Parent = SpectralLoader
         BackFrame.AnchorPoint = Vector2.new(0.5, 0.5)
         BackFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        BackFrame.Position = UDim2.new(0.493000001, 0, 1.07000005, 0)
-        BackFrame.Size = UDim2.new(0, 361, 0, 101)
+        BackFrame.Position = UDim2.new(0.494000000, 0, 1.07000005, 0)
+        BackFrame.Size = UDim2.new(3, 450, 0, 100)
         
         UICorner.CornerRadius = UDim.new(0, 12)
         UICorner.Parent = BackFrame
@@ -36,7 +36,8 @@ repeat
         TopFrame.Name = "TopFrame"
         TopFrame.Parent = BackFrame
         TopFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-        TopFrame.Size = UDim2.new(0, 370, 0, 25)
+        TopFrame.Size = UDim2.new(0, 359, 0, 30)
+        TopFrame.BackgroundTransparency = 1
         
         UICorner_2.CornerRadius = UDim.new(0, 12)
         UICorner_2.Parent = TopFrame
